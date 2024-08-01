@@ -12,11 +12,11 @@ This project is a simple PHP application designed to demonstrate the use of Comp
 
 ## Installation Steps
 
-###Prerequisites
+### Prerequisites
 - Docker
 - Docker Compose
 
-###Steps
+### Steps
 1. Clone the repository:
  ```
 https://github.com/MuhammadAhsanAli/acme-widget-co.git
@@ -34,14 +34,14 @@ This command will build the Docker image based on the Dockerfile.
 docker-compose build
  ```
 
-##Running PHPUnit Tests
+## Running PHPUnit Tests
 After setting up the project as described above, you can run the tests using Docker Compose:
 ```
 docker-compose up
 ```
 This command will start the Docker container and run the PHPUnit tests. You should see output from PHPUnit indicating the results of the tests.
 
-##Additional Notes
+## Additional Notes
 
 - The Dockerfile uses the official PHP CLI image and installs necessary dependencies.
 - The `docker-compose.yml` file defines a single service `app` that builds the Docker image and runs PHPUnit tests.
